@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mpc_start_color">#FF00FFED</color>
+    <color name="mpc_end_color">#FFED00FF</color>
+    <!-- 没有被渐变填充区域的颜色 -->
+    <color name="mpc_default_color">#1AFFFFFF</color>
+        <color name="colorPrimary">@color/black_thin</color>
+        <color name="colorPrimaryDark">@color/black</color>
+        <color name="colorAccent">#FF4081</color>
+
+        <color name="white">#FFFFFFFF</color>
+        <color name="black">#FF000000</color>
+        <color name="black_thin">#0D0D0E</color>
+
+        <color name="demo_btn_bg_normal">#777777</color>
+        <color name="demo_btn_bg_pressed">#666666</color>
+</resources>

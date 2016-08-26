@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp">
+
+        <com.mmf.circleprogress.widget.CircleProgressView
+            android:id="@+id/demo_mpc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:mpc_stroke_width="5dp" />
+    </RelativeLayout>
+
+<Button
+    android:id="@+id/btn_click"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="20dp"
+    android:text="开启进度条"/>
+
+</LinearLayout>
