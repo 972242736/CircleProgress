@@ -6,17 +6,22 @@ import android.view.View;
 
 import com.mmf.circleprogress.R;
 import com.mmf.circleprogress.widget.CircleProgressView;
+import com.mmf.circleprogress.widget.SpringProgressView;
 
 
 public class MainActivity extends AppCompatActivity {
     float progress = 3;
     CircleProgressView demoMpc;
+    SpringProgressView sp_progress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         demoMpc = (CircleProgressView) findViewById(R.id.demo_mpc);
+        sp_progress = (SpringProgressView) findViewById(R.id.sp_progress);
+        sp_progress.setMaxCount(20);
+        sp_progress.setCurrentCount(16);
         findViewById(R.id.btn_click).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

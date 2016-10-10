@@ -4,14 +4,21 @@
     <color name="mpc_end_color">#FFED00FF</color>
     <!-- 没有被渐变填充区域的颜色 -->
     <color name="mpc_default_color">#1AFFFFFF</color>
-        <color name="colorPrimary">@color/black_thin</color>
-        <color name="colorPrimaryDark">@color/black</color>
-        <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">@color/black_thin</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">#FF4081</color>
 
-        <color name="white">#FFFFFFFF</color>
-        <color name="black">#FF000000</color>
-        <color name="black_thin">#0D0D0E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black_thin">#0D0D0E</color>
 
-        <color name="demo_btn_bg_normal">#777777</color>
-        <color name="demo_btn_bg_pressed">#666666</color>
+    <color name="demo_btn_bg_normal">#777777</color>
+    <color name="demo_btn_bg_pressed">#666666</color>
+
+    <color name="blue">#15B5FF</color>
+    <color name="blue1">#83EFEF</color>
+    <color name="blue2">#6BD9F9</color>
+    <color name="gray">#7D7D7D</color>
+    <color name="app_bg">#F8F8F8</color>
+    <color name="black_25">#252525</color>
 </resources>
