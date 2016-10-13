@@ -148,7 +148,6 @@ public class SpringProgressView extends View {
                     height * 3, height * 3, 0, 0, paint);
         }
 
-
         textpaint.setTextAlign(Paint.Align.LEFT);
         textpaint.setColor(context.getResources().getColor(R.color.black_25));
         if ((mWidth) * section < mWidth / 2) {

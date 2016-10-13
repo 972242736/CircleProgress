@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#ff4081"
     android:orientation="vertical">
 
 
@@ -27,11 +27,31 @@
         android:layout_marginLeft="14dp"
         android:layout_marginRight="14dp" />
 
-<Button
-    android:id="@+id/btn_click"
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:layout_margin="20dp"
-    android:text="开启进度条"/>
+    <com.mmf.circleprogress.widget.FlexibleRatingBar
+        android:id="@+id/rb_cmt_score"
+        android:layout_width="100dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:clickable="false"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="3.5"
+        android:stepSize="0.1"
+        app:colorFillOff="@color/line_c"
+        app:colorFillOn="@color/blue2"
+        app:colorFillPressedOn="@color/black"
+        app:colorOutlineOff="@color/line_c"
+        app:polygonVertices="5"
+        app:strokeWidth="0dp" />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="#5677fc"
+        android:text="开启进度条"
+        android:textColor="#ffffff" />
 
 </LinearLayout>

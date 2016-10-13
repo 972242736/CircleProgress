@@ -15,5 +15,18 @@
         <attr name="mpb_background_color" format="color" />
         <attr name="mpb_flat" format="boolean" />
     </declare-styleable>
+    <!-- 星星属性 -->
+    <declare-styleable name="FlexibleRatingBar">
+        <attr name="colorOutlineOn" format="color" />
+        <attr name="colorOutlineOff" format="color" />
+        <attr name="colorOutlinePressed" format="color" />
+        <attr name="colorFillOn" format="color" />
+        <attr name="colorFillOff" format="color" />
+        <attr name="colorFillPressedOn" format="color" />
+        <attr name="colorFillPressedOff" format="color" />
+        <attr name="polygonVertices" format="integer" />
+        <attr name="polygonRotation" format="integer" />
+        <attr name="strokeWidth" format="dimension" />
+    </declare-styleable>
 
 </resources>
