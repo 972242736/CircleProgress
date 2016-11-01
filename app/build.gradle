@@ -24,6 +24,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'cn.dreamtobe.percentsmoothhandler:library:0.1.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }
 //if (isForUpload2Maven()) {
 //    println ':library:include upload 2 maven methods'

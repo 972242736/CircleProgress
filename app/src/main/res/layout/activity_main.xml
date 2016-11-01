@@ -54,4 +54,26 @@
         android:text="开启进度条"
         android:textColor="#ffffff" />
 
+    <LinearLayout
+        android:id="@+id/lyt_movie_bg"
+        android:layout_width="match_parent"
+        android:layout_height="160dip"
+        android:background="#5677fc"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.mmf.circleprogress.widget.fancycoverflow.FancyCoverFlow
+                android:id="@+id/fancyCoverFlow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
 </LinearLayout>
